@@ -11,7 +11,7 @@ import Work from "../pages/Work";
 //SPA의 장점인 브라우저가 깜빡이지 않고 다른 페이지로 이동할 수 있게 만들어줍니다!
 const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/coupang_newsroom">
       <Routes>
        {/* 
                         Routes안에 이렇게 작성합니다. 
