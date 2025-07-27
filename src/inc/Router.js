@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Content from "../pages/Content";
 import Work from "../pages/Work";
+import NotFound from "../pages/NotFound";
 
 // 2. Router 라는 함수를 만들고 아래와 같이 작성합니다.
 //BrowserRouter를 Router로 감싸는 이유는, 
@@ -24,6 +25,8 @@ const Router = () => {
         <Route path="about" element={<About />} />
         <Route path="content" element={<Content />} />
         <Route path="work" element={<Work />} />
+        {/* 404 페이지 - 위의 모든 경로와 일치하지 않는 경우 */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );

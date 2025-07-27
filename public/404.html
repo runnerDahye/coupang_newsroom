@@ -33,5 +33,50 @@
     </script>
   </head>
   <body>
+    <div style="
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    ">
+      <div style="
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        padding: 40px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        max-width: 500px;
+      ">
+        <h1 style="font-size: 4rem; margin: 0; font-weight: bold;">404</h1>
+        <h2 style="font-size: 1.5rem; margin: 20px 0; font-weight: 300;">페이지를 찾을 수 없습니다</h2>
+        <p style="font-size: 1rem; margin: 20px 0; opacity: 0.9; line-height: 1.6;">
+          요청하신 페이지가 존재하지 않거나 이동되었을 수 있습니다.<br>
+          URL을 다시 한 번 확인해 주세요.
+        </p>
+        <a href="/coupang_newsroom/" style="
+          display: inline-block;
+          margin-top: 30px;
+          padding: 12px 30px;
+          background: rgba(255, 255, 255, 0.2);
+          color: white;
+          text-decoration: none;
+          border-radius: 25px;
+          border: 2px solid rgba(255, 255, 255, 0.3);
+          transition: all 0.3s ease;
+          font-weight: 500;
+        " onmouseover="this.style.background='rgba(255,255,255,0.3)'; this.style.transform='translateY(-2px)'" 
+           onmouseout="this.style.background='rgba(255,255,255,0.2)'; this.style.transform='translateY(0)'">
+          🏠 홈으로 돌아가기
+        </a>
+      </div>
+    </div>
   </body>
 </html>
