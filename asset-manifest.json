@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/coupang_newsroom/static/css/main.e6c13ad2.css",
-    "main.js": "/coupang_newsroom/static/js/main.c760db5f.js",
+    "main.js": "/coupang_newsroom/static/js/main.6d72ce23.js",
     "static/js/453.1d9549c6.chunk.js": "/coupang_newsroom/static/js/453.1d9549c6.chunk.js",
     "index.html": "/coupang_newsroom/index.html",
     "main.e6c13ad2.css.map": "/coupang_newsroom/static/css/main.e6c13ad2.css.map",
-    "main.c760db5f.js.map": "/coupang_newsroom/static/js/main.c760db5f.js.map",
+    "main.6d72ce23.js.map": "/coupang_newsroom/static/js/main.6d72ce23.js.map",
     "453.1d9549c6.chunk.js.map": "/coupang_newsroom/static/js/453.1d9549c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.c760db5f.js"
+    "static/js/main.6d72ce23.js"
   ]
 }
