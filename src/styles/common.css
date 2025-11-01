@@ -1,0 +1,9 @@
+/* layout */
+.container {max-width: 1600px; margin: 0 auto; width: 100%;}
+
+/* header */
+header {height: 90px;}
+.container.header-content {display: flex; justify-content: space-between; align-items: center; height: 100%;}
+.container.header-content .menu {display: flex; align-items: center; gap: 50px;}
+.container.header-content .menu nav ul {display: flex; align-items: center; gap: 50px;}
+.container.header-content .menu nav ul li a {font-size: 18px; position: relative;}
