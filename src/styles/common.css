@@ -1,9 +1,31 @@
-/* layout */
-.container {max-width: 1600px; margin: 0 auto; width: 100%;}
+/** Utility Classes **/
+
+/* flex */
+.flex {display: flex;}
+.items-center {align-items: center;}
+.justify-center {justify-content: center;}
+.flex-col {flex-direction: column;}
+
+.gap-10 {gap: 10px;}
+.gap-12 {gap: 12px;}
+.gap-16 {gap: 16px;}
+.gap-20 {gap: 20px;}
+
+/* overflow */
+.overflow-hidden {overflow: hidden;}
+
+/* form */
+.input-basic {width: 100%; padding: 10px 15px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px; transition: border-color 0.3s;}
+
+.sch-box {max-width: 500px; width: 100%; border: 3px solid var(--primary-500); border-radius: 10px; padding: 5px 10px;}
+.sch-box .input-basic {flex: 1; border: none;}
 
 /* header */
 header {height: 90px;}
-.container.header-content {display: flex; justify-content: space-between; align-items: center; height: 100%;}
-.container.header-content .menu {display: flex; align-items: center; gap: 50px;}
-.container.header-content .menu nav ul {display: flex; align-items: center; gap: 50px;}
-.container.header-content .menu nav ul li a {font-size: 18px; position: relative;}
+.header-content {display: flex; justify-content: space-between; align-items: center; height: 100%;}
+.header-content .menu {display: flex; align-items: center; gap: 50px;}
+.header-content .menu nav ul {display: flex; align-items: center; gap: 50px;}
+.header-content .menu nav ul li a {font-size: 18px; position: relative; display: block; width: 100%;}
+.header-content .menu nav ul li a::after {content: ''; position: absolute; bottom: -5px; left: 0; width: 0; height: 1px; background-color: #000; transition: width 0.3s;}
+.header-content .menu nav ul li a:hover::after {width: 100%;}
+
